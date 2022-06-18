@@ -52,48 +52,89 @@ body {
     font-size: 1.3rem;
 }
 
+.clock_digit{
+    position: absolute;
+    transform: translateX(-50%);
+}
+
 .clock__number1 {
     transform: rotate(30deg);
+}
+.clock__number1 .clock_digit {
+    transform: rotate(-30deg) translateY(-5px);
 }
 
 .clock__number2 {
     transform: rotate(60deg);
 }
 
+.clock__number2 .clock_digit {
+    transform: rotate(-60deg)  translateY(-5px);
+}
 .clock__number3 {
     transform: rotate(90deg);
+}
+.clock__number3 .clock_digit{
+    transform: rotate(-90deg)  translateY(-5px);
 }
 
 .clock__number4 {
     transform: rotate(120deg);
+}
+.clock__number4 .clock_digit{
+    transform: rotate(-120deg)  translateY(-5px);
 }
 
 .clock__number5 {
     transform: rotate(150deg);
 }
 
+.clock__number5 .clock_digit {
+    transform: rotate(-150deg) translateY(-5px);
+}
 .clock__number6 {
     transform: rotate(180deg);
 }
 
+.clock__number6 .clock_digit {
+    transform: rotate(-180deg) translateY(-5px);
+}
 .clock__number7 {
     transform: rotate(210deg);
 }
 
+.clock__number7 .clock_digit {
+    transform: rotate(-210deg) translateY(-5px);
+}
 .clock__number8 {
     transform: rotate(240deg);
+}
+
+.clock__number8 .clock_digit {
+    transform: rotate(-240deg) translateY(-5px);
 }
 
 .clock__number9 {
     transform: rotate(270deg);
 }
 
+.clock__number9 .clock_digit {
+    transform: rotate(-270deg) translateY(15%);
+}
+
 .clock__number10 {
     transform: rotate(300deg);
 }
 
+.clock__number10 .clock_digit{
+    transform: rotate(-300deg) translateY(25%);
+}
 .clock__number11 {
     transform: rotate(330deg);
+}
+
+.clock__number11 .clock_digit {
+    transform: rotate(30deg) translateX(-50%) translateY(20%);
 }
 
 .clock__hand {
